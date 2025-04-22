@@ -1,2 +1,31 @@
-# SudokuCPP
-Sudoku Game written in C++ – I built this project for fun during my military service. I still remember sketching the logic and writing the codes on the back of scrap papers and debugging it whenever I got home. A simple but memorable way to keep coding alive through that time.
+# Sudoku Console Game
+
+A simple Sudoku puzzle generator and solver written in C++. Built as a clean, beginner-friendly project to demonstrate basic C++ skills, logic building, and object-oriented design.
+
+## 🎯 Features
+- Auto-generated valid Sudoku board
+- Interactive terminal gameplay
+- Input validation
+- Simple object-oriented structure
+
+## 🔧 Build & Run
+- Clone this repository
+```bash
+git clone https://github.com/neamax/SudokuCPP.git
+```
+- Run with g++
+```bash
+g++ -o sudoku main.cpp SudokuGame.cpp
+./sudoku
+```
+
+## 📁 File Structure
+```
+.
+├── main.cpp
+├── SudokuGame.cpp
+├── SudokuGame.h
+└── README.md
+└── .gitignore
+└── LICENCE
+```

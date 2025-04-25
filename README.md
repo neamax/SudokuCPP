@@ -1,5 +1,4 @@
 # Sudoku Console Game
-
 A simple Sudoku puzzle generator and solver written in C++. Built as a clean, beginner-friendly project to demonstrate basic C++ skills, logic building, and object-oriented design.
 
 
@@ -23,6 +22,7 @@ git clone https://github.com/neamax/SudokuCPP.git
 
 
 ### Windows
+Install g++ (MinGW) using [MSYS2](https://www.msys2.org/)
 - Using Git Bash
 ```bash
 cd /project/root/path

@@ -11,7 +11,7 @@ A simple Sudoku puzzle generator and solver written in C++. Built as a clean, be
 
 
 ## 🧑🏽‍💻 Run
-- Download and run executable files available on the Release page or /Build folder
+- Download and run executable files available on the [Release](https://github.com/neamax/SudokuCPP/releases) page or /Build folder
 
 
 ## 🔧 Build

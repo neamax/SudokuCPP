@@ -64,12 +64,12 @@ g++ Source/Private/main.cpp Source/Private/SudokuGame.cpp -I Source/Public -o Bu
 │   └── Private/            # Source files (.cpp)
 │
 ├── Build/                  # Compiled executable goes here
-│   └── [LatestVersion.exe]
+│   └── [LatestVersion]
 │
-├── build.sh                # Shell script to build the project
-├── build.ps1               # Windows PowerShell script to build the project
-├── README.md               # You're reading it!
-├── LICENCE                 # MIT Licence
+├── build-win.sh                # Shell script to build the project for Windows
+├── build-win.ps1               # Windows PowerShell script to build the project for Windows
+├── README.md                   # You're reading it!
+├── LICENCE
 └── .gitignore
 ```
 

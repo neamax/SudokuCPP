@@ -9,8 +9,10 @@ A simple Sudoku puzzle generator and solver written in C++. Built as a clean, be
 - Input validation
 - Simple object-oriented structure
 
+
 ## 🧑🏽‍💻 Run
 - Download and run executable files available on the Release page or /Build folder
+
 
 ## 🔧 Build
 You can edit and compile your own version of this game easily using the following scripts.
@@ -20,17 +22,17 @@ You can edit and compile your own version of this game easily using the followin
 git clone https://github.com/neamax/SudokuCPP.git
 ```
 
-
 ### Windows
-Install g++ (MinGW) using [MSYS2](https://www.msys2.org/)
+- Install g++ (MinGW) from [MSYS2](https://www.msys2.org/)
+
 - Using Git Bash
 ```bash
 cd /project/root/path
 chmod +x build.sh
-./build.sh
+./build-win.sh
 ```
 
-- Using Windows Powershell
+- Using Windows PowerShell
 ```bash
 cd /project/root/path
 ./build.ps1
@@ -38,11 +40,17 @@ cd /project/root/path
 
 
 ### MacOS or Linux
-- Using Git Bash
+- Install g++ on Terminal
+```bash
+sudo apt update
+sudo apt install g++ -y
+```
+
+- Using g++ compiler
 ```bash
 cd /project/root/path
-chmod +x build.sh
-./build.sh
+g++ Source/Private/main.cpp Source/Private/SudokuGame.cpp -I Source/Public -o Build/SudokuGame
+./SudokuGame
 ```
 
 -- Compiled executable file will be saved in /Build folder.

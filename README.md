@@ -1,15 +1,18 @@
 # Sudoku Console Game
-
 A simple Sudoku puzzle generator and solver written in C++. Built as a clean, beginner-friendly project to demonstrate basic C++ skills, logic building, and object-oriented design.
 
+
 ## 🎯 Features
-- Auto-generated valid Sudoku board
+- Well-commented clean code
+- Auto-generated a valid Sudoku board
 - Interactive terminal gameplay
 - Input validation
 - Simple object-oriented structure
 
+
 ## 🧑🏽‍💻 Run
 - Download and run executable files available on the Release page or /Build folder
+
 
 ## 🔧 Build
 You can edit and compile your own version of this game easily using the following scripts.
@@ -20,28 +23,37 @@ git clone https://github.com/neamax/SudokuCPP.git
 ```
 
 ### Windows
+- Install g++ (MinGW) from [MSYS2](https://www.msys2.org/)
+
 - Using Git Bash
 ```bash
 cd /project/root/path
 chmod +x build.sh
-./build.sh
+./build-win.sh
 ```
 
-- Using Windows Powershell
+- Using Windows PowerShell
 ```bash
 cd /project/root/path
 ./build.ps1
 ```
 
+
 ### MacOS or Linux
-- Using Git Bash
+- Install g++ on Terminal
 ```bash
-cd /project/root/path
-chmod +x build.sh
-./build.sh
+sudo apt update
+sudo apt install g++ -y
 ```
 
--- Compiled executable file will be saved on /Build folder.
+- Using g++ compiler
+```bash
+cd /project/root/path
+g++ Source/Private/main.cpp Source/Private/SudokuGame.cpp -I Source/Public -o Build/SudokuGame
+./SudokuGame
+```
+
+-- Compiled executable file will be saved in /Build folder.
 
 
 ## 📁 File Structure
@@ -52,18 +64,19 @@ chmod +x build.sh
 │   └── Private/            # Source files (.cpp)
 │
 ├── Build/                  # Compiled executable goes here
-│   └── [LatestVersion.exe]
+│   └── [LatestVersion]
 │
-├── build.sh                # Shell script to build the project
-├── build.ps1               # Windows PowerShell script to build the project
-├── README.md               # You're reading it!
-├── LICENCE                 # MIT Licence
+├── build-win.sh                # Shell script to build the project for Windows
+├── build-win.ps1               # Windows PowerShell script to build the project for Windows
+├── README.md                   # You're reading it!
+├── LICENCE
 └── .gitignore
 ```
+
 
 ## 🪖 Behind the Code
 This project was written during my free time in military service. In the quiet hours, surrounded by duty and discipline, I turned to code as both escape and challenge. Sudoku was the perfect metaphor — a grid of chaos slowly tamed by logic and patience.
 
 I hope this little game brings you the same sense of focus and calm it gave me.
 
-– Neama 🎮 """
+– Neama 🎮
